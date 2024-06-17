@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Mukta;
+    src: url(Mukta-Bold.ttf);
+}
+
+:root{
+    --primary-bg: #D6D7D7;
+    --secondary-bg: #DDDCDC;
+    --cta-bg: #EC5F2A;
+    --text-primary: #333;
+    --text-secondary: #898889;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    width: 100vw;
+    font-family: Mukta;
+    font-size: 16px;
+    background-color: white;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 3.6rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5{
+    font-size: 1.6rem;
+}
+
+h6{
+    font-size: 1.2rem;
+}
+
+/* paragraphs */
+p{
+    margin-bottom: 1.6rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+/* links */
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* lists */
+ul, ol{
+    margin: 1.5rem 0;
+    padding: 2rem;
+}
+
+li{
+    margin-bottom: .5rem;
+}
+
+/* images */
+img{
+    max-width: 100%;
+    height: auto;
+}
