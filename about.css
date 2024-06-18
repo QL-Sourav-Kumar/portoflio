@@ -1,0 +1,92 @@
+main{
+    height: 100%;
+    width: 100%;
+}
+
+#about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.side-nav{
+    width: 20vw;
+    background-color: var(--cta-bg);
+    display: flex;
+    flex-direction: column;
+    font-family: Mukta;
+}
+
+.img-container{
+    height: 35vh;
+    background-color: var(--secondary-bg);
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.routes{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .2vh;
+}
+
+.routes a {
+    color: black;
+    font-size: 2vw;
+}
+
+.routes a[href='about.html']{
+    color: white;
+}
+
+.routes .dotted-line{
+    height: 5vh;
+}
+
+.container{
+    width: 80vw;
+    background: linear-gradient(to bottom, rgb(255, 255, 255, 1) 0%, rgb(165, 163, 167) 100%);
+    padding: 5vh 10vh;
+}
+
+.container .header{
+    color: var(--text-primary);
+    text-align: center;
+    border: 2px dotted var(--text-secondary);
+    font-size: 6vw;
+    padding: .5vh;
+    letter-spacing: .3rem;
+}
+
+.info-container{
+    padding: 1vw;
+}
+
+.info-container .title{
+    font-size: 2.5vw;
+    color: var(--text-primary);
+    letter-spacing: .15vw;
+}
+
+
+.info-container .title .highlight{
+    font-weight: 600;
+    font-family: MuktaMedium;
+}
+
+.info-container .intro{
+    color: var(--text-primary);
+}
+
+.aside-nav a[href='about.html']{
+    color: white;
+}

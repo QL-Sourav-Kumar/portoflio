@@ -82,3 +82,7 @@ main{
     position: relative;
     bottom: 0;
 }
+
+.aside-nav a[href='index.html']{
+    color: white;
+}
