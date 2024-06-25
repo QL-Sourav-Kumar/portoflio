@@ -102,7 +102,7 @@ main{
     top: 0;
     background: rgb(1, 1, 1, 0.8);
     padding: 10px;
-    transform: translateY(20vw);
+    transform: translateY(16vw);
     transition: all ease 0.3s;
 }
 
@@ -121,6 +121,27 @@ main{
     line-height: 1.5vw;
     text-align: center;
     color: white;
+}
+
+.project-content .actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge{
+    padding: 1px 10px;
+    margin: 0;
+    border: 1px solid var(--secondary-bg);
+    border-radius: 20px;
+    font-size: 1vh;
+    color: white;
+    min-width: 2vw;
+}
+
+.actions .preview{
+    margin-left: auto;
+    
 }
 
 .aside-nav a[href='portfolio.html']{
